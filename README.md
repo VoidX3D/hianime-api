@@ -20,13 +20,13 @@
 
   <div>
     <a 
-      href="https://github.com/voidx3d/aniwatch-api/issues/new?assignees=ghoshRitesh12&labels=bug&template=bug-report.yml"
+      href="https://github.com/voidx3d/aniwatch-api/issues/new?assignees=voidx3d&labels=bug&template=bug-report.yml"
     > 
       Bug report
     </a>
     ·
     <a 
-      href="https://github.com/voidx3d/aniwatch-api/issues/new?assignees=ghoshRitesh12&labels=enhancement&template=feature-request.md"
+      href="https://github.com/voidx3d/aniwatch-api/issues/new?assignees=voidx3d&labels=enhancement&template=feature-request.md"
     >
       Feature request
     </a>
@@ -40,7 +40,7 @@
 [![codeql](https://github.com/voidx3d/aniwatch-api/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/voidx3d/aniwatch-api/actions/workflows/codeql-analysis.yml)
 [![docker-build](https://github.com/voidx3d/aniwatch-api/actions/workflows/docker-build.yml/badge.svg)](https://github.com/voidx3d/aniwatch-api/actions/workflows/docker-build.yml)
 [![test_coverage](https://github.com/voidx3d/aniwatch-api/actions/workflows/test.yml/badge.svg)](https://github.com/voidx3d/aniwatch-api/actions/workflows/test.yml)
-[![GitHub License](https://img.shields.io/github/license/ghoshRitesh12/aniwatch-api?logo=github&logoColor=%23959da5&labelColor=%23292e34&color=%2331c754)](https://github.com/voidx3d/aniwatch-api/blob/main/LICENSE)
+[![GitHub License](https://img.shields.io/github/license/voidx3d/aniwatch-api?logo=github&logoColor=%23959da5&labelColor=%23292e34&color=%2331c754)](https://github.com/voidx3d/aniwatch-api/blob/main/LICENSE)
 
 </div>
 
