@@ -1,7 +1,7 @@
 <p align="center">
-    <a href="https://github.com/voidx3d/aniwatch-api">
+    <a href="https://github.com/VoidX3D/aniwatch-api">
         <img 
-            src="https://raw.githubusercontent.com/voidx3d/aniwatch-api/refs/heads/main/public/img/hianime_v2.png" 
+            src="https://raw.githubusercontent.com/VoidX3D/aniwatch-api/refs/heads/main/public/img/hianime_v2.png" 
             alt="aniwatch_logo" 
             width="175" 
             height="175"
@@ -20,13 +20,13 @@
 
   <div>
     <a 
-      href="https://github.com/voidx3d/aniwatch-api/issues/new?assignees=voidx3d&labels=bug&template=bug-report.yml"
+      href="https://github.com/VoidX3D/aniwatch-api/issues/new?assignees=VoidX3D&labels=bug&template=bug-report.yml"
     > 
       Bug report
     </a>
     ·
     <a 
-      href="https://github.com/voidx3d/aniwatch-api/issues/new?assignees=voidx3d&labels=enhancement&template=feature-request.md"
+      href="https://github.com/VoidX3D/aniwatch-api/issues/new?assignees=VoidX3D&labels=enhancement&template=feature-request.md"
     >
       Feature request
     </a>
@@ -37,19 +37,19 @@
 
 <div align="center">
 
-[![codeql](https://github.com/voidx3d/aniwatch-api/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/voidx3d/aniwatch-api/actions/workflows/codeql-analysis.yml)
-[![docker-build](https://github.com/voidx3d/aniwatch-api/actions/workflows/docker-build.yml/badge.svg)](https://github.com/voidx3d/aniwatch-api/actions/workflows/docker-build.yml)
-[![test_coverage](https://github.com/voidx3d/aniwatch-api/actions/workflows/test.yml/badge.svg)](https://github.com/voidx3d/aniwatch-api/actions/workflows/test.yml)
-[![GitHub License](https://img.shields.io/github/license/voidx3d/aniwatch-api?logo=github&logoColor=%23959da5&labelColor=%23292e34&color=%2331c754)](https://github.com/voidx3d/aniwatch-api/blob/main/LICENSE)
+[![codeql](https://github.com/VoidX3D/aniwatch-api/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/VoidX3D/aniwatch-api/actions/workflows/codeql-analysis.yml)
+[![docker-build](https://github.com/VoidX3D/aniwatch-api/actions/workflows/docker-build.yml/badge.svg)](https://github.com/VoidX3D/aniwatch-api/actions/workflows/docker-build.yml)
+[![test_coverage](https://github.com/VoidX3D/aniwatch-api/actions/workflows/test.yml/badge.svg)](https://github.com/VoidX3D/aniwatch-api/actions/workflows/test.yml)
+[![GitHub License](https://img.shields.io/github/license/VoidX3D/aniwatch-api?logo=github&logoColor=%23959da5&labelColor=%23292e34&color=%2331c754)](https://github.com/VoidX3D/aniwatch-api/blob/main/LICENSE)
 
 </div>
 
 <div align="center">
 
-[![stars](https://img.shields.io/github/stars/voidx3d/aniwatch-api?style=social)](https://github.com/voidx3d/aniwatch-api/stargazers)
-[![forks](https://img.shields.io/github/forks/voidx3d/aniwatch-api?style=social)](https://github.com/voidx3d/aniwatch-api/network/members)
-[![issues](https://img.shields.io/github/issues/voidx3d/aniwatch-api?style=social&logo=github)](https://github.com/voidx3d/aniwatch-api/issues?q=is%3Aissue+is%3Aopen+)
-[![version](https://img.shields.io/github/v/release/voidx3d/aniwatch-api?display_name=release&style=social&logo=github)](https://github.com/voidx3d/aniwatch-api/releases/latest)
+[![stars](https://img.shields.io/github/stars/VoidX3D/aniwatch-api?style=social)](https://github.com/VoidX3D/aniwatch-api/stargazers)
+[![forks](https://img.shields.io/github/forks/VoidX3D/aniwatch-api?style=social)](https://github.com/VoidX3D/aniwatch-api/network/members)
+[![issues](https://img.shields.io/github/issues/VoidX3D/aniwatch-api?style=social&logo=github)](https://github.com/VoidX3D/aniwatch-api/issues?q=is%3Aissue+is%3Aopen+)
+[![version](https://img.shields.io/github/v/release/VoidX3D/aniwatch-api?display_name=release&style=social&logo=github)](https://github.com/VoidX3D/aniwatch-api/releases/latest)
 
 </div>
 
@@ -99,7 +99,7 @@
 1. Clone the repository and move into the directory.
 
     ```bash
-    git clone https://github.com/voidx3d/aniwatch-api.git
+    git clone https://github.com/VoidX3D/aniwatch-api.git
     cd aniwatch-api
     ```
 
@@ -119,7 +119,7 @@
 
 ### Docker
 
-The Docker image is available at [The GitHub Container Registry](https://github.com/voidx3d/aniwatch-api/pkgs/container/aniwatch).
+The Docker image is available at [The GitHub Container Registry](https://github.com/VoidX3D/aniwatch-api/pkgs/container/aniwatch).
 
 Run the following commands to pull and run the docker image.
 
@@ -141,7 +141,7 @@ Currently this API supports parsing of only one custom header, and more may be i
 
 ### Environment Variables
 
-More info can be found in the [`.env.example`](https://github.com/voidx3d/aniwatch-api/blob/main/.env.example) file, where envs' having a value that is contained within `<` `>` angled brackets, commented out or not, are just examples and should be replaced with relevant ones.
+More info can be found in the [`.env.example`](https://github.com/VoidX3D/aniwatch-api/blob/main/.env.example) file, where envs' having a value that is contained within `<` `>` angled brackets, commented out or not, are just examples and should be replaced with relevant ones.
 
 - `ANIWATCH_API_PORT`: Port number of the aniwatch API.
 - `ANIWATCH_API_WINDOW_MS`: Duration to track requests for rate limiting (in milliseconds).
@@ -161,7 +161,7 @@ More info can be found in the [`.env.example`](https://github.com/voidx3d/aniwat
 >
 > - If you want to have rate limiting in your application, then set the `ANIWATCH_API_HOSTNAME` env to your deployed instance's hostname; otherwise, don't set or have this env at all. If you set this env to an incorrect value, you may face other issues.
 > - It's optional by default, but if you want to have endpoint response caching functionality, then set the `ANIWATCH_API_REDIS_CONN_URL` env to a valid Redis connection URL. If the connection URL is invalid, the Redis client can throw unexpected errors.
-> - You **may or may not** wanna remove the last `if` block within the [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) in the [`server.ts`](https://github.com/voidx3d/aniwatch-api/blob/main/src/server.ts) file. It is for **render free deployments** only, as their free tier has an approx 10 or 15 minute sleep time. That `if` block keeps the server awake and prevents it from sleeping. You can enable the automatic health check by setting the environment variables `ANIWATCH_API_HOSTNAME` to your deployment's hostname, and `ANIWATCH_API_DEPLOYMENT_ENV` to `render` in your environment variables. If you are not using render, you can remove that `if` block.
+> - You **may or may not** wanna remove the last `if` block within the [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) in the [`server.ts`](https://github.com/VoidX3D/aniwatch-api/blob/main/src/server.ts) file. It is for **render free deployments** only, as their free tier has an approx 10 or 15 minute sleep time. That `if` block keeps the server awake and prevents it from sleeping. You can enable the automatic health check by setting the environment variables `ANIWATCH_API_HOSTNAME` to your deployment's hostname, and `ANIWATCH_API_DEPLOYMENT_ENV` to `render` in your environment variables. If you are not using render, you can remove that `if` block.
 > - If you are using a serverless deployment, then set the `ANIWATCH_API_DEPLOYMENT_ENV` env to `vercel` or `render` or `cloudflare-workers` depending on your deployment platform. This is because the API uses this env to configure different functionalities, such as rate limiting, graceful shutdown or hosting static files.
 
 ### Vercel
@@ -172,7 +172,7 @@ Deploy your own instance of Aniwatch API on Vercel.
 >
 > When deploying to vercel, you must set the env named `ANIWATCH_API_DEPLOYMENT_ENV` to `vercel` for proper functioning of the API.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/voidx3d/aniwatch-api)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/VoidX3D/aniwatch-api)
 
 ### Render
 
@@ -182,7 +182,7 @@ Deploy your own instance of Aniwatch API on Render.
 >
 > When deploying to render, you must set the env named `ANIWATCH_API_DEPLOYMENT_ENV` to `render` for proper functioning of the API.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/voidx3d/aniwatch-api)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/VoidX3D/aniwatch-api)
 
 ## <span id="documentation">📚 Documentation</span>
 
@@ -1332,13 +1332,13 @@ console.log(data);
 
 ## <span id="development">👨‍💻 Development</span>
 
-Pull requests and stars are always welcome. If you encounter any bug or want to add a new feature to this api, consider creating a new [issue](https://github.com/voidx3d/aniwatch-api/issues). If you wish to contribute to this project, read the [CONTRIBUTING.md](https://github.com/voidx3d/aniwatch-api/blob/main/CONTRIBUTING.md) file.
+Pull requests and stars are always welcome. If you encounter any bug or want to add a new feature to this api, consider creating a new [issue](https://github.com/VoidX3D/aniwatch-api/issues). If you wish to contribute to this project, read the [CONTRIBUTING.md](https://github.com/VoidX3D/aniwatch-api/blob/main/CONTRIBUTING.md) file.
 
 ## <span id="contributors">✨ Contributors</span>
 
 Thanks to the following people for keeping this project alive and relevant.
 
-[![](https://contrib.rocks/image?repo=ghoshRitesh12/aniwatch-api)](https://github.com/voidx3d/aniwatch-api/graphs/contributors)
+[![](https://contrib.rocks/image?repo=ghoshRitesh12/aniwatch-api)](https://github.com/VoidX3D/aniwatch-api/graphs/contributors)
 
 ## <span id="thanks">🤝 Thanks</span>
 
@@ -1353,7 +1353,7 @@ Don't forget to leave a star 🌟. You can also follow me on X (Twitter) [@rites
 
 ## <span id="license">📜 License</span>
 
-This project is licensed under the [MIT License](https://opensource.org/license/mit/) - see the [LICENSE](https://github.com/voidx3d/aniwatch-api/blob/main/LICENSE) file for more details.
+This project is licensed under the [MIT License](https://opensource.org/license/mit/) - see the [LICENSE](https://github.com/VoidX3D/aniwatch-api/blob/main/LICENSE) file for more details.
 
 <br/>
 
@@ -1364,3 +1364,17 @@ This project is licensed under the [MIT License](https://opensource.org/license/
   src="https://starchart.cc/ghoshRitesh12/aniwatch-api.svg?variant=adaptive"
   alt=""
 />
+
+
+## Changes made:
+
+1. **All GitHub URLs** - Changed from `voidx3d` to `VoidX3D` (including the image source URL)
+2. **Assignee references** - Updated `assignees=voidx3d` to `assignees=VoidX3D`
+3. **Badge links** - Updated all GitHub action badge URLs
+4. **Shields.io badges** - Updated the stars, forks, issues, and version badges
+5. **Clone URL** - Updated the git clone command
+6. **GitHub links** - Updated all links pointing to GitHub files (`.env.example`, `server.ts`, `CONTRIBUTING.md`, `LICENSE`)
+7. **Deployment buttons** - Updated Vercel and Render deployment URLs
+8. **Issue links** - Updated the issue creation links
+
+**Note:** The contributors image and star history image still point to `ghoshRitesh12` because those are references to the original repository owner's username, not yours. You may want to update those if you've forked the repository.
